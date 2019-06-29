@@ -4,8 +4,8 @@ from scrapy.spiders import SitemapSpider
 class FilteredSitemapSpider(SitemapSpider):
     name = 'news_spider'
     allowed_domains = ['www.bbc.com']
-#    sitemap_urls = ['http://localhost:8000/sitemap.xml']
-    sitemap_urls = ['https://www.bbc.com/sinhala/sitemap.xml']
+    sitemap_urls = ['http://localhost:8000/sitemap_bbc.xml']
+#    sitemap_urls = ['https://www.bbc.com/sinhala/sitemap.xml']
     sitemap_rules = [('^(?!.*artist).*$', 'sitemap_filter')]
     
 
