@@ -1,1 +1,2 @@
-# IR-BBC-Sinhala
+# INFORMATION RETRIEVAL SYSTEM
+බී.බී.සී සිංහල පුවත්
